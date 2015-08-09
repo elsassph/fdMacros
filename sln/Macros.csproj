@@ -44,15 +44,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\%24{BaseDir%29\macros\PrettyPrint.cs">
-      <Link>PrettyPrint.cs</Link>
-    </Compile>
-    <Compile Include="..\%24{BaseDir%29\macros\Trace.cs">
-      <Link>Trace.cs</Link>
-    </Compile>
+    <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <Compile Include="PrettyPrint.cs" />
+    <Compile Include="Trace.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
