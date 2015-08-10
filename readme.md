@@ -4,9 +4,9 @@ A collection of C# macro scripts for FlashDevelop.
 
 ## Why use C# macros?
 
-C# macros are really powerful: scripts have unlimited access to the loaded libraries and plugins, and a lot lighter than full-blown plugins. The only constraint is that they must fit into one C# file and you can't load DLLs to extend FlashDevelop functionalities. Also the syntax is limited to something like C# 2 (eg. no `var foo` inference).
+C# macros are really powerful: scripts have unlimited access to the loaded libraries and plugins, and are a lot lighter than full-blown plugins. The only constraint is that they must fit into one C# file and you can't load DLLs to extend FlashDevelop functionalities. Also the syntax is limited to something like C# 2 (eg. no `var foo` inference).
 
-Scripts are loaded and compiled on first use, which keeps FlashDevelop startup lean. You'll "feel" it as the first execution of a macro includes a little pause where the file is loaded and compiled. It is afterwards as fast as C# can be!
+Scripts are loaded and compiled on first use, which keeps FlashDevelop startup lean. You'll "feel" it as the first execution of a macro includes a little pause where the script is loaded and compiled. It is afterwards as fast as C# can be!
 
 - [Script macros tutorial and examples](http://www.flashdevelop.org/community/viewtopic.php?f=20&t=5846)
 
