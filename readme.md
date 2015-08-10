@@ -8,6 +8,8 @@ C# macros are really powerful, having unlimited access to the loaded libraries a
 
 Macros are loaded and compiled on first use, which keeps FlashDevelop startup lean. You'll "feel" it as the first execution of a macro includes a little pause where the file is loaded and compiled. It is afterwards as fast as C# can be!
 
+- [Macros tutorial and examples](http://www.flashdevelop.org/community/viewtopic.php?f=20&t=5846)
+
 
 ## Installation
 
