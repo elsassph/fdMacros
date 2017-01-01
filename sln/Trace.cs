@@ -1,7 +1,6 @@
 using System;
 using System.Text.RegularExpressions;
 using PluginCore;
-using PluginCore.Managers;
 using ScintillaNet;
 
 namespace Macros
@@ -37,7 +36,7 @@ namespace Macros
             else sci.LineEnd();
 
             sci.NewLine();
-            sci.InsertText(sci.CurrentPos, String.Format("trace(\"{0} = \" + {1});", expr, SafeExpr(expr)));
+            sci.InsertText(sci.CurrentPos, String.Format("trace('{0} = ' + {1});", expr, SafeExpr(expr)));
             sci.LineEnd();
         }
 
@@ -57,7 +56,7 @@ namespace Macros
             SkipMethod(sci);
 
             sci.NewLine();
-            sci.InsertText(sci.CurrentPos, String.Format("trace(\"{0}()\");", name));
+            sci.InsertText(sci.CurrentPos, String.Format("trace('{0}()');", name));
             sci.LineEnd();
         }
 
