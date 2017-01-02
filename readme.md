@@ -36,9 +36,14 @@ Notes:
 
 *Default shortcut: Ctrl+0*
 
-Generate `trace("expr = " + expr);`, using either selected text (so you can choose an expression) or the word at cursor position. 
+Generate `trace('expr = ' + expr);`, using either selected text (so you can choose an expression) or the word at cursor position. 
 
 Code is generated on the next line, unless a function declaration is detected, in which case the line will be tentatively inserted inside the function body.
+
+
+### Copy as HTML
+
+Select text in the editor and execute the macro - the corresponding HTML code, including CSS, will be copied in your clipboard.
 
 
 ## More scripting?
